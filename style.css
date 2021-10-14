@@ -1,0 +1,351 @@
+* {
+    box-sizing: border-box;
+    margin: auto; 
+ }
+ 
+ body {
+     max-width: 100%;
+     font-family: 'Jost', sans-serif;
+ }
+ 
+ #myBody{
+     background-color:black;
+ }
+ 
+ #myBody .test__layout {
+     background-color: #222222;
+ }
+ 
+ #myBody .card {
+     background-color: black;
+ }
+ 
+ #myBody .card .card__content p {
+     color: rgb(182, 175, 175);
+     font-weight: 300;
+ }
+ 
+ #myBody .card__name h4 {
+     color: white;
+ }
+ 
+ 
+ 
+   #switchButton {
+     background-color: white;
+   }
+   #switchButton .fa-sun {
+     display: none;
+   }
+   #switchButton .fa-moon {
+     display: block;
+   }
+   
+   /* Dark Theme*/
+   .dark#myBody{
+     background-color:white;
+   }
+ 
+   .dark#myBody .card {
+       background-color: white;
+   }
+ 
+   .dark#myBody .test__layout {
+       background-color: #f9f7fe;
+       width: 100%;
+   }
+ 
+   .dark#myBody .card__content p {
+       color:black;
+   }
+ 
+   .dark#myBody .card__name h4 {
+     color:black;
+ }
+ 
+ 
+   .dark#switchButton {
+     background-color: black;
+   }
+   .dark #switchButton .fa-sun {
+     display: block;
+     color: black;
+     background-color: white;
+   }
+   
+   .dark #switchButton .fa-moon {
+     display: none;
+   }
+   
+ .dark.container {
+     background-color: white;
+     color: black;
+ }
+ 
+ .dark.testimonial {
+     background-color: gray;
+ }
+ 
+ .container {
+     width: 100%;
+     padding-right: 15px;
+     padding-left: 15px;
+     margin-right: auto;
+     margin-left: auto;
+ }
+ 
+ 
+ /* Petfood */
+ .petfood {
+     padding-bottom: 50px;
+ }
+ 
+ .petfood__content {
+     text-align: center;
+     max-width: 950px;
+ }
+ 
+ .petfood__content #header {
+     color: #f53626;
+     font-style: bold;
+     font-size: 15px;
+     padding-bottom: 10px;
+ }
+ 
+ h2 {
+     font-size: 33px;
+     padding-bottom: 10px;
+     color:white;
+ }
+ 
+ .dark h2 {
+     color: black;
+ }
+ 
+ .petfood__content p {
+     color: gray;
+ }
+ 
+ .petfood__img img {
+     width: 65%;
+     border-radius: 2%;
+ }
+ 
+ .petfood__img {
+     text-align: center;
+     padding-top: 15px;
+ }
+ 
+ .petfood__btm span{
+     position: absolute;
+     color: green;
+     background: white;
+     padding: 20px 18px;
+     border-radius: 50%;
+     padding-left: 22px;
+     animation: ripple 1s linear infinite;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     cursor: pointer;
+ }
+ 
+ .petfood__btm span:hover{
+     font-size: 20px;
+ }
+ 
+ #small-dialog1 {
+     max-width: 750px;
+     margin: 40px auto;
+     position: relative;
+ }
+ 
+ .mfp-hide {
+     display: none!important;
+ }
+ 
+ #small-dialog1 iframe {
+     width: 100%;
+     height: 400px;
+     display: block;
+ }
+ 
+ iframe {
+     border: none;
+ }
+ 
+ .play-view {
+     left: 0;
+     right: 0;
+     top: calc(50% - 40px);
+ }
+ 
+ /* Testimonial */
+ 
+ .owl-carousel {
+     width: 70%;
+ }
+ 
+ .test__header {
+     margin: auto;
+     text-align: center;
+     padding: 20px 0 ;
+ }
+ 
+ .test__header p {
+     color: #f53626;
+     font-style: bold;
+     font-size: 15px;
+     
+ }
+ 
+ .testimonial {
+     padding-bottom: 80px;
+     max-width: 100%;
+ }
+ 
+ .dark.testimonial {
+     background-color: gray;
+ }
+ 
+ .test__header h2 {
+     font-size: 33px;
+ }
+ 
+ .carousel .card {
+     background: #fff;
+     text-align: left;
+     color: black;
+     font-size: 16px;
+     font-weight: 300;
+     box-shadow: 0 4px 15px rgba(0,0,0,0);
+     border-radius: 10px;
+     
+ }
+ 
+ .card__content {
+     display: block;
+     border: none;
+     box-shadow: 0 25px 98px 0 rgb(19 19 19 / 3%);
+     padding: 0 20px;
+ }
+ 
+ 
+ .card__bottom {
+     padding-bottom: 15px;
+ }
+ 
+ 
+ .card__bottom .img__bg {
+     width: 70px;
+     height:70px;
+     overflow: hidden;
+     background: #fff;
+     border-radius: 50%;
+     float: left;    
+ }
+ 
+ .card__bottom img {
+     object-fit: cover;
+     object-position: center;
+     max-width: 100%;
+     height:auto;
+ }
+ 
+ .card__content i {
+     color: green;
+     font-size: 13px;
+     padding-top: 20px;
+ 
+ }
+ 
+ .card__content p {
+     padding: 5px 20px 15px 0 ; 
+     font-size: 15px;
+     text-align: justify;
+     text-indent: 20px;
+ } 
+ 
+ .card__name {
+     display: inline-block;
+     padding-top: 12px;
+ }
+ 
+ .card__bottom {
+     display: inline-block;
+     
+ }
+ 
+ .card__name h4 {
+     padding-left: 20px;
+ }
+ 
+ .owl-dots {
+     text-align: center;
+     margin-top: 40px;
+ }
+ 
+ .owl-dot {
+     height: 15px;
+     width: 45px;
+     border-radius: 25px;
+     border: 2px solid green!important;
+     cursor: pointer;
+     outline: none;
+     margin: 0 5px;
+     border: 2px solid green!important;
+     transition: all 0.3s ease;
+ }
+ 
+ .owl-dot:hover,
+ .owl-dot:active{
+     background: green!important;
+ }
+ 
+ 
+ /* Keyframes */
+ @keyframes ripple {
+     0% {
+         box-shadow: 0 0 0 0 rgb(15 162 66 / 16%), 0 0 0 10px rgb(15 162 67 / 25%), 0 0 0 20px rgb(15 162 67 / 25%);
+     }
+     100% {
+         box-shadow: 0 0 0 10px rgb(15 162 67 / 25%), 0 0 0 20px rgb(15 162 67 / 25%), 0 0 0 40px rgb(50 100 245 / 0%);
+     }
+ }
+ /* Responsive */
+ 
+ @media screen and (max-width: 992px) {
+     .petfood__video span {
+     margin-right: auto;
+     margin-left: auto;
+     top: 45%;
+ }
+ }
+ 
+ @media screen and (max-width: 992px) {
+     .petfood__content p,h2 {
+     padding: 0 40px;
+ }
+ }
+ 
+ @media screen and (max-width: 992px) {
+     .petfood__content h2 {
+     padding: 0 45px;
+ }
+ }
+ 
+ 
+ @media screen and (max-width: 992px) {
+     .test__header p,h2 {
+     padding: 0 35px;
+ }
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
